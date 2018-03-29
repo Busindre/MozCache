@@ -1,7 +1,7 @@
-# MozCache (Bashscript)
+# MozCache (Bash script)
 Simple shell script to perform forensic analysis of the Mozilla-Browsers cache (Firefox, Iceweasel and Seamonkey).
 
-The script orders by date the files cached from a browser of the Mozilla family using the Cache 2 version. Together with the name of each file the script generates another file with the suffix "_metadata" with all the metadata information, download URL, size , server response code, HTTP protocol, expiration date, etc.
+The script orders by date the files cached from a browser of the Mozilla family using the cache version 2. Together with the name of each file the script generates another file with the suffix "_metadata" with all the metadata information, download URL, size , server response code, HTTP protocol, expiration date, etc.
 
 Run the script and enter a cache directory. If the user has a profile in the standard routes, it will be shown.
 ```
